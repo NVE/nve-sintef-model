@@ -1,6 +1,10 @@
 import struct
 
 def read_io_c20_omrade(path):
+    """
+    Leser innholdet i filen C20_OMRADE.EMPS til en pandas.DataFrame
+    med kolonner omrnr, omrnavn
+    """
     rows = []
 
     with open(path, "rb") as f:
