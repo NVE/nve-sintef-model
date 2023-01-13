@@ -3,9 +3,9 @@ def get_linje_data(m, omr):
     """
     Leser dataene i en maskenettfil og returnerer en linje_data liste paa
     samme format som kreves for aa skrive en enkel maskenett-fil med 
-    funksjonen nve_modell.sintef.io.maskenett.skriv_enkel_maskenett
+    funksjonen nve_sintef_model.io.maskenett.skriv_enkel_maskenett
     
-    m - et maskenett-objekt av typen nve_modell.sintef.io.maskenett.Maskenett
+    m - et maskenett-objekt av typen nve_sintef_model.io.maskenett.Maskenett
     omr - en df med omrnr, omrnavn data
     """
     omr["omrnr"] = omr["omrnr"].astype(int)

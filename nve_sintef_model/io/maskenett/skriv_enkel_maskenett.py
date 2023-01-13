@@ -1,5 +1,5 @@
 
-from nve_modell.sintef.utils.type_check import get_type_from_dict
+from nve_sintef_model.utils.type_check import get_type_from_dict
 
 def skriv_enkel_maskenett(path, ntimen_liste, linje_data):
 
